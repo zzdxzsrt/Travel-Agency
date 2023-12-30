@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@font-face {
+    font-family: 'Quick Kiss Personal Use';
+    src: url(./Quick\ Kiss\ Personal\ Use.ttf);
+}
+body{
+    background-image: url(./img/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    height: 100vh;
+}
+#name-company{
+    display: inline-block;
+    color: white;
+    font-weight: 1000;
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20%;
+}
+#link p{
+    display: inline-block;
+}
+#link{
+    display: inline-block;
+    width: 60%;
+}
+#sign-up{
+    display: inline-block;
+}
+#header{
+    width: 80%;
+    margin: 0 auto;
+}
+#link div{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+}
+#sign-up button{
+    background-color: yellow;
+    border-width: 0px;
+    width: 170%;
+    height: 3em;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    border-radius: 8%;
+}
+#main-text{
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#main-text-header{
+    color: white;
+    font-size: 300%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+
+}
+#summary-text{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-bottom: 3%;
+}
+#exploration{
+    background-color: yellow;
+    color: black;
+    border-width: 0;
+    width: 25%;
+    height: 3em;
+    font-weight: 700;
+    margin-right: 3%;
+    border-radius: 5%;
+}
+#read{
+    background-color: white;
+    border-width: 0;
+    width: 25%;
+    height: 3em;
+    font-weight: 700;
+    border-radius: 5%;
+}
+#input-container{
+    width: 70%;
+    background-color: white;
+    margin-left: 13%;
+    margin-right: 13%;
+    padding: 2%;
+    box-shadow: 0px 4px 6px silver;
+    position: relative;
+    z-index: 10;
+}
+#second-part{
+    height: 100%;
+    
+}
+.cards{
+    display: inline-block;
+    width: 16%;
+
+}
+.cards label{
+    font-size: 90%;
+    font-weight: 600;
+}
+.cards input{
+    width: 70%;
+    height: 60%;
+    padding: 5%;
+    border-radius: 5%;
+    box-shadow: 0px 6px 24px 0px rgba(228, 226, 238, 1);
+    border-width: 0;
+background-color: rgba(255, 255, 255, 1);
+font-family:  'Poppins', sans-serif;
+}
+.cards button{
+    background-color: yellow;
+    border: 0;
+    padding: 10%;
+    width: 80%;
+    box-shadow: 0px 4px 6px rgb(187, 186, 186);
+    border-radius: 10%;
+    font-family:  'Poppins', sans-serif;
+    font-size: medium;
+    font-weight: 700;
+}
+#booking-container{
+    margin-top: 9%;
+    display: flex;
+    margin-left: 13%;
+    width: 30%;
+    justify-content: space-between;
+}
+.booking{
+    background-color: white;
+    width: 20%;
+    padding: 1% 2% 2% 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8% 8% 0% 0% ;
+
+} 
+.booking img{
+    width: 30%;
+    margin-right: 7%;
+}
+.booking:hover{
+    background-color: yellow;
+}
+#about{
+    width: 75%;
+    height: 80%;
+    margin-left: 12%;
+    display: flex;
+}
+.bg1{
+    margin-top: 15%;
+    width: 75%;
+    height: 55%;
+    position: relative;
+    
+}
+.bg2{
+    width: 15%;
+    height: 35%; 
+    position: absolute;
+    top: 160%;
+    left: 28%;
+
+}
+#bigtext{
+    position: absolute;
+    font-size: 2300%;
+    font-family:  'Poppins', sans-serif;
+    opacity: 0.1;
+    width: 150%;
+    height: 100px;
+    color:grey;
+    top: 40%;
+    order: -1;
+    font-weight: 800;
+}
+#about-us{
+    width: 40%;
+    margin-left: 3%;
+    margin-top: 5%;
+    font-family:  'Poppins', sans-serif;
+}
+.check{
+    border: 3px solid silver;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+#about-us p, #about-us div{
+    color: grey;
+    font-size: small;
+
+}
+#about-us h1{
+    font-weight: bold;
+    font-family:  'Poppins', sans-serif;
+    margin-top: 0%;
+
+}
+#about-us h6{
+    margin-top: 5%;
+    font-family: 'Quick Kiss Personal Use';
+    font-size: x-large;
+    color:#FFC814;
+    margin-bottom: 0%;
+}
+#statystic{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+#statystic .item-statystic .statysticnumber{
+    color: #FFC814;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.item-statystic{
+    width: 70px;
+}
+#statystic-button button{
+    background-color: #FFC814;
+    border: none;
+    margin-top: 10%;
+    width: 30%;
+    height: 50%;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    border-radius: 6%;
+    font-size: small;
+    font-weight: bolder;
+}
+#img-palm{
+    margin-top: 20%;
+    width: 19%;
+}
